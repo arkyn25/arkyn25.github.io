@@ -8,29 +8,25 @@ body {
   background-image:url(https://cdn.dribbble.com/users/5031/screenshots/3713646/attachments/832536/wallpaper_mikael_gustafsson.png);
   background-size:auto
 }
+
 .portifolio {
   text-align: center;
   font-family: fantasy;
-  font-size:30px;
+  font-size:50px;
   color: rgb(255, 255, 255);
   margin-left: 20%;
-  z-index:1;
 }
-section {
-  margin: 50px auto;
-  width: 100%;
-}
+
 .header {
   text-align: center;
   margin-top:2%;
   padding:10px;
   margin-left:auto;
-  
 }
+
 .social a {
   width: 50px;
   height: 50px;
-  margin: 5px;
   transition: all 0.4s ease-out;
   border-radius: 50%;
   display: inline-block;
@@ -38,6 +34,7 @@ section {
   border: 4px solid;
   border-color:rgb(8, 7, 7);
 }
+
 .social:hover {
   cursor:pointer;
   transform:translateY(-20px);
@@ -45,19 +42,20 @@ section {
 .social#github {
  display:inline-block;
  position: absolute;
- left:67%;
- 
- 
+ left:30%;
+ min-width:50%;
 }
 .social#instagram {
   display: inline-block;
   position: absolute;
-  left:73%
+  left:47%;
+  min-width:50%;
 }
 .social#linkedin {
   display: inline-block;
   position: absolute;
-  left:79%;
+  left:64%;
+  min-width:50%;
 }
 
 .icone {
@@ -67,22 +65,17 @@ section {
   border-radius:50%;
 }
 
-
-p, li {
-  font-size: 16px;
-  margin-left: 10px;
-  padding: auto;
-}
-
 .picture {
   border-radius: 50%;
   float: left;
   border:3px solid;
+  margin-top:30px;
 }
+
 .container {
 width: 80%;
 text-align: center;
-margin: 10%;
+margin: 14%;
 display: inline-block;
 float:left;
 outline-style:double ;
@@ -96,29 +89,32 @@ img {
 }
 .hero-title {
   margin-top: 10px;
-  margin-right: 20%
+  margin-right: 20%;
+  margin-left:10px;
+  font-size:40px;
 }
-h1,p {
-  margin-top: 10px;
-  text-align:auto;
+h1, p {
+  margin-top: 30px;
+  text-align:center;
   float:top;
   margin-right:20%;
   position:relative;
+  font-size: 16px;
+  padding: auto;
+  color: white;
 }
 ul, li {
   text-align:center;
-  list-style: none;
+  list-style:none;
+  line-height: 1.5;
+  color: white;
 }
-.list {
-  border: 5px solid;
-  outline-style: double;
-  margin:100px 180px;
-  padding:10px;
-  background-color:rgb(137, 255, 255);
-  position: absolute;
+
+h2 {
+  margin-top:20px;
 }
+
 .city {
   margin-left: 20%;
   color:rgb(255, 255, 255);
- 
 }
