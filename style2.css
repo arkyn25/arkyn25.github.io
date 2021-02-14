@@ -3,18 +3,22 @@
   padding: 0px;
 }
 
+body {
+  font-family:fantasy,   sans-serif;
+  background-image:url(https://cdn.dribbble.com/users/5031/screenshots/3713646/attachments/832536/wallpaper_mikael_gustafsson.png);
+  background-size:auto
+}
 .portifolio {
   text-align: center;
   font-family: fantasy;
   font-size:30px;
-  color: rgb(0, 0, 0);
-  margin-left: 10%;
+  color: rgb(255, 255, 255);
+  margin-left: 20%;
   z-index:1;
 }
 section {
   margin: 50px auto;
-  width: 1025px;
-  height: 150px;
+  width: 100%;
 }
 .header {
   text-align: center;
@@ -30,28 +34,30 @@ section {
   transition: all 0.4s ease-out;
   border-radius: 50%;
   display: inline-block;
-  margin-left:50%;
-  padding:5px;
-  position:absolute;
+  padding:5px;  
   border: 4px solid;
-  border-color:white;
+  border-color:rgb(8, 7, 7);
 }
 .social:hover {
   cursor:pointer;
   transform:translateY(-20px);
-  box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 45);
 }
 .social#github {
-  left:67%;
- position:absolute;
+ display:inline-block;
+ position: absolute;
+ left:67%;
+ 
+ 
 }
 .social#instagram {
-  position:absolute;
-  left:73%;
+  display: inline-block;
+  position: absolute;
+  left:73%
 }
 .social#linkedin {
+  display: inline-block;
+  position: absolute;
   left:79%;
-  position:absolute;
 }
 
 .icone {
@@ -60,21 +66,12 @@ section {
   width:100%;
   border-radius:50%;
 }
-body {
-  font-family:fantasy,   sans-serif;
-  background-image:url(https://img.favpng.com/14/19/19/cool-backgrounds-download-1080p-wallpaper-png-favpng-5RSGc3t8vhK9dabBEEPZBSukD.jpg);
-}
+
 
 p, li {
   font-size: 16px;
   margin-left: 10px;
   padding: auto;
-}
-.container {
-  border: 5px solid;
-  text-align: center;
-  outline-style:double ;
-  background-color:rgb(22, 168, 197);
 }
 
 .picture {
@@ -85,9 +82,11 @@ p, li {
 .container {
 width: 80%;
 text-align: center;
-margin: 50px;
+margin: 10%;
 display: inline-block;
 float:left;
+outline-style:double ;
+background-color:rgb(22, 168, 197);
 }
 
 img {
@@ -103,7 +102,8 @@ h1,p {
   margin-top: 10px;
   text-align:auto;
   float:top;
-  margin-right:20%
+  margin-right:20%;
+  position:relative;
 }
 ul, li {
   text-align:center;
@@ -115,8 +115,10 @@ ul, li {
   margin:100px 180px;
   padding:10px;
   background-color:rgb(137, 255, 255);
+  position: absolute;
 }
 .city {
-  text-align:center;
-  margin-left:15%;
+  margin-left: 20%;
+  color:rgb(255, 255, 255);
+ 
 }
